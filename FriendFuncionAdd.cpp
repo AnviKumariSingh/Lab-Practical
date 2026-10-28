@@ -15,6 +15,7 @@ public:
     }
     friend void add(XYZ, ABC);
 };
+
 class ABC
 {
 private:
@@ -27,10 +28,12 @@ public:
     }
     friend void add(XYZ, ABC);
 };
+
 void add(XYZ x, ABC a)
 {
     cout << "The sum is " << x.data + a.data << endl;
 }
+
 int main()
 {
     XYZ sum1;
