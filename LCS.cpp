@@ -76,7 +76,7 @@ int main()
     printf("Length of LCS: %d\n", c[m][n]);
 
     printf("Longest Common Subsequence: ");
-    PRINT_LCS(X, m, n);
+    PRINT_LCS(Y, m, n);
     printf("\n");
 
     return 0;
